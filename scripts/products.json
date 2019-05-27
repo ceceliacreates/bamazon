@@ -1,0 +1,62 @@
+[
+    {
+        "product_name": "Womens Tee",
+        "department_name": "clothing",
+        "price": 12,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Mens Tee",
+        "department_name": "clothing",
+        "price": 12,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Childs Tee",
+        "department_name": "clothing",
+        "price": 8,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Sticker Pack",
+        "department_name": "gifts",
+        "price": 5,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Mug",
+        "department_name": "gifts",
+        "price": 6,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Notebook",
+        "department_name": "gifts",
+        "price": 5,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Tote Bag",
+        "department_name": "gifts",
+        "price": 6,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Kettle Corner",
+        "department_name": "books",
+        "price": 3,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Touch-Up",
+        "department_name": "books",
+        "price": 3,
+        "stock_quantity": 10
+    },
+    {
+        "product_name": "Extraction",
+        "department_name": "books",
+        "price": 3,
+        "stock_quantity": 10
+    }
+]
