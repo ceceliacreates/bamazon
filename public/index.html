@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .product {
+        margin: 20px;
+        text-align: center;
+      }
+      label {
+        margin: 5px;
+      }
+      button {
+        display: block;
+        margin: 5px auto 5px auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        border: solid 1px black;
+      }
+      h1 {
+        display: block;
+        background-color: lightcyan;
+        margin: 0px;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Products</h1>
+    <div id="error"></div>
+    <div id="products" class="container"></div>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

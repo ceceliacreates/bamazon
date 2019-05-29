@@ -1,7 +1,7 @@
 const db = require("../models");
-
+const Sequelize = require("sequelize");
 module.exports = function(app) {
-    const Op = Sequelize.Op
+        const Op = Sequelize.Op;
     //GET route for all products
     app.get("/api/products", function(req, res) {
         db.Product.findAll().then(function(results) {
@@ -31,5 +31,17 @@ module.exports = function(app) {
     }).then(function(results) {
         res.json(results);
     })
-    
+})
+// PUT route for updating posts
+app.put("/api/products", function(req, res) {
+    db.Product.update(req.body,
+      {
+        where: {
+          product_name: req.body.product_name
+        }
+      })
+      .then(function(response) {
+        res.json(response);
+      });
+  });
 }
