@@ -14,11 +14,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "bamazon",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "use_env_variable": "JAWSDB_URL"
+    "username": "brvsr09minlezani",
+    "password": "cfplnj1j4u79yqh6",
+    "database": "l8bik7n7762rrb6a",
+    "port": "3306",
+    "host": "jj820qt5lpu6krut.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
   }
 }
